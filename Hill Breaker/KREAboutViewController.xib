@@ -7,6 +7,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="KREAboutViewController">
             <connections>
+                <outlet property="licenseTextView" destination="9B0-24-b7W" id="zOf-Ea-Jcq"/>
                 <outlet property="view" destination="1" id="2"/>
             </connections>
         </customObject>
@@ -46,9 +47,9 @@
                     </scroller>
                 </scrollView>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="OfJ-4C-oZl">
-                    <rect key="frame" x="18" y="235" width="160" height="17"/>
+                    <rect key="frame" x="18" y="235" width="300" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Created by Alex Krebiehl" id="rNv-Kx-pFP">
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Created by Alex Krebiehl under the GPL license" id="rNv-Kx-pFP">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>

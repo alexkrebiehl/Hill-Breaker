@@ -30,6 +30,8 @@
 		FAC28D67180AD1B100794C5D /* KREKeyPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC28D66180AD1B100794C5D /* KREKeyPopoverViewController.m */; };
 		FAC407D4185DFD9200A48C01 /* KREAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC407D2185DFD9200A48C01 /* KREAboutViewController.m */; };
 		FAC407D5185DFD9200A48C01 /* KREAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC407D3185DFD9200A48C01 /* KREAboutViewController.xib */; };
+		FAC407D7185DFF4200A48C01 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FAC407D6185DFF4200A48C01 /* LICENSE */; };
+		FAC407D9185E00D100A48C01 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAC407D8185E00D100A48C01 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,8 @@
 		FAC407D1185DFD9200A48C01 /* KREAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KREAboutViewController.h; sourceTree = "<group>"; };
 		FAC407D2185DFD9200A48C01 /* KREAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KREAboutViewController.m; sourceTree = "<group>"; };
 		FAC407D3185DFD9200A48C01 /* KREAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KREAboutViewController.xib; sourceTree = "<group>"; };
+		FAC407D6185DFF4200A48C01 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FAC407D8185E00D100A48C01 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 		FAC28D0418089E1200794C5D = {
 			isa = PBXGroup;
 			children = (
+				FAC407D8185E00D100A48C01 /* README.md */,
+				FAC407D6185DFF4200A48C01 /* LICENSE */,
 				FAC28D1618089E1200794C5D /* Hill Breaker */,
 				FAC28D3418089E1200794C5D /* Hill BreakerTests */,
 				FAC28D0F18089E1200794C5D /* Frameworks */,
@@ -325,10 +331,12 @@
 			files = (
 				FAC28D5B180993BB00794C5D /* KREBruteForceView.xib in Resources */,
 				FAC28D1B18089E1200794C5D /* InfoPlist.strings in Resources */,
+				FAC407D9185E00D100A48C01 /* README.md in Resources */,
 				FAC28D2918089E1200794C5D /* Images.xcassets in Resources */,
 				FAC28D2118089E1200794C5D /* Credits.rtf in Resources */,
 				FAC28D2718089E1200794C5D /* MainMenu.xib in Resources */,
 				FAAB2E1C180B7F1400CF2501 /* KREKnownKeyViewController.xib in Resources */,
+				FAC407D7185DFF4200A48C01 /* LICENSE in Resources */,
 				FAC28D5118097E6500794C5D /* words.txt in Resources */,
 				FAC407D5185DFD9200A48C01 /* KREAboutViewController.xib in Resources */,
 			);
