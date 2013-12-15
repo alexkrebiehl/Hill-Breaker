@@ -21,7 +21,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-@class KREBruteForceViewController, KREKnownKeyViewController;
+@class KREBruteForceViewController, KREKnownKeyViewController, KREAboutViewController;
 
 @interface KREAppDelegate : NSObject
 
@@ -29,6 +29,7 @@
 
 @property (strong, nonatomic) KREBruteForceViewController *bruteForceViewController;
 @property (strong, nonatomic) KREKnownKeyViewController *knownKeyViewController;
+@property (strong, nonatomic) KREAboutViewController *aboutViewController;
 
 
 @end

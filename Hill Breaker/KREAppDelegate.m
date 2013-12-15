@@ -23,6 +23,7 @@
 #import "KREAppDelegate.h"
 #import "KREBruteForceViewController.h"
 #import "KREKnownKeyViewController.h"
+#import "KREAboutViewController.h"
 
 
 @implementation KREAppDelegate
@@ -33,6 +34,7 @@
     // Insert code here to initialize your application
     self.bruteForceViewController = [[KREBruteForceViewController alloc] initWithNibName:@"KREBruteForceView" bundle:nil];
     self.knownKeyViewController = [[KREKnownKeyViewController alloc] initWithNibName:@"KREKnownKeyViewController" bundle:nil];
+    self.aboutViewController = [[KREAboutViewController alloc] initWithNibName:@"KREAboutViewController" bundle:nil];
     
     // put the views into the tabview
     NSTabViewItem *item;
@@ -41,6 +43,9 @@
     
     item = [self.tabView tabViewItemAtIndex:1];
     [item setView:[[self knownKeyViewController] view]];
+    
+    item = [self.tabView tabViewItemAtIndex:2];
+    [item setView:[[self aboutViewController] view]];
 
 }
 

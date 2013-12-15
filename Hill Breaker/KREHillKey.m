@@ -22,6 +22,9 @@
 
 #import "KREHillKey.h"
 
+NSString *KREInvalidMatrixException =               @"KREInvalidMatrixException";
+NSString *KREInvalidMatrixExceptionDescription =    @"Supplied matrix must have an inverse!";
+
 enum { KREInvalidInverse = INT_MIN };
 
 KREMatrix KREMatrixMake(NSInteger a, NSInteger b, NSInteger c, NSInteger d)

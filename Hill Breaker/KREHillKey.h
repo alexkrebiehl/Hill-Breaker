@@ -22,7 +22,7 @@
 
 #import <Foundation/Foundation.h>
 
-
+extern NSString *KREInvalidMatrixException;
 
 
 /** Data structure to represent a matrix */

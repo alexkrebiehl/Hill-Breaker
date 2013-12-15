@@ -28,6 +28,8 @@
 		FAC28D571809929C00794C5D /* KREBruteForceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC28D561809929C00794C5D /* KREBruteForceViewController.m */; };
 		FAC28D5B180993BB00794C5D /* KREBruteForceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC28D5A180993BB00794C5D /* KREBruteForceView.xib */; };
 		FAC28D67180AD1B100794C5D /* KREKeyPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC28D66180AD1B100794C5D /* KREKeyPopoverViewController.m */; };
+		FAC407D4185DFD9200A48C01 /* KREAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC407D2185DFD9200A48C01 /* KREAboutViewController.m */; };
+		FAC407D5185DFD9200A48C01 /* KREAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC407D3185DFD9200A48C01 /* KREAboutViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,9 @@
 		FAC28D5A180993BB00794C5D /* KREBruteForceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KREBruteForceView.xib; sourceTree = "<group>"; };
 		FAC28D65180AD1B100794C5D /* KREKeyPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KREKeyPopoverViewController.h; sourceTree = "<group>"; };
 		FAC28D66180AD1B100794C5D /* KREKeyPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KREKeyPopoverViewController.m; sourceTree = "<group>"; };
+		FAC407D1185DFD9200A48C01 /* KREAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KREAboutViewController.h; sourceTree = "<group>"; };
+		FAC407D2185DFD9200A48C01 /* KREAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KREAboutViewController.m; sourceTree = "<group>"; };
+		FAC407D3185DFD9200A48C01 /* KREAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KREAboutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,11 +228,22 @@
 		FAC28D68180AFA1200794C5D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				FAC407CB185DFAA400A48C01 /* About */,
 				FA7B57C4180BAD65008F7ECA /* Known Plaintext */,
 				FA7B57C5180BAD6F008F7ECA /* Known Key */,
 				FAC28D2518089E1200794C5D /* MainMenu.xib */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		FAC407CB185DFAA400A48C01 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				FAC407D1185DFD9200A48C01 /* KREAboutViewController.h */,
+				FAC407D2185DFD9200A48C01 /* KREAboutViewController.m */,
+				FAC407D3185DFD9200A48C01 /* KREAboutViewController.xib */,
+			);
+			name = About;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +330,7 @@
 				FAC28D2718089E1200794C5D /* MainMenu.xib in Resources */,
 				FAAB2E1C180B7F1400CF2501 /* KREKnownKeyViewController.xib in Resources */,
 				FAC28D5118097E6500794C5D /* words.txt in Resources */,
+				FAC407D5185DFD9200A48C01 /* KREAboutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +352,7 @@
 				FAC28D491808A14700794C5D /* KREHillSolver.m in Sources */,
 				FAC28D4618089EA100794C5D /* KREHillKey.m in Sources */,
 				FA7B57C3180BAB97008F7ECA /* KREInvalidKeyPopupViewController.m in Sources */,
+				FAC407D4185DFD9200A48C01 /* KREAboutViewController.m in Sources */,
 				FAC28D571809929C00794C5D /* KREBruteForceViewController.m in Sources */,
 				FAC28D1D18089E1200794C5D /* main.m in Sources */,
 				FAC28D4F1809009100794C5D /* KREHillSolverResult.m in Sources */,
